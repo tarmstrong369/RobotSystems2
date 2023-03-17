@@ -208,6 +208,7 @@ def move():
                         continue
                     Board.setBusServoPulse(1, servo1 - 280, 500)  # claw open
                     # calculate angle at that the clamper gripper needs to rotate
+                    print(rotation_angle)
                     servo2_angle = getAngle(world_X, world_Y, rotation_angle)
                     Board.setBusServoPulse(2, servo2_angle, 500)
                     time.sleep(0.8)

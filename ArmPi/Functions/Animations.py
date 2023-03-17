@@ -20,7 +20,7 @@ from CameraCalibration.CalibrationConfig import *
 #     def move()
 
 def middle_stance(): # En garde!
-    servo1 = 550  # Gripper: 0-full open, 500-close
+    servo1 = 510  # Gripper: 0-full open, 500-close
     servo2 = 500  # Wrist: 500-horizontal,
     servo3 = 450  # 500: straight out
     servo4 = 1000  # 500: straight out
@@ -34,7 +34,7 @@ def middle_stance(): # En garde!
     Board.setBusServoPulse(6, servo6, 500)
 
 def high_blow(): #sword raised high
-    servo1 = 550  # Gripper: 0-full open, 500-close
+    servo1 = 510  # Gripper: 0-full open, 500-close
     servo2 = 500  # Wrist: 500-horizontal,
     servo3 = 200  # 500: straight out
     servo4 = 500  # 500: straight out
@@ -48,7 +48,7 @@ def high_blow(): #sword raised high
     Board.setBusServoPulse(6, servo6, 500)
 
 def low_strike(): #sword down low
-    servo1 = 550  # Gripper: 0-full open, 500-close
+    servo1 = 510  # Gripper: 0-full open, 500-close
     servo2 = 500  # Wrist: 500-horizontal,
     servo3 = 750  # 500: straight out
     servo4 = 1000  # 500: straight out
@@ -62,7 +62,7 @@ def low_strike(): #sword down low
     Board.setBusServoPulse(6, servo6, 500)
 
 def from_the_right(): # sword to the right
-    servo1 = 550  # Gripper: 0-full open, 500-close
+    servo1 = 510  # Gripper: 0-full open, 500-close
     servo2 = 300  # Wrist: 500-horizontal,
     servo3 = 450  # 500: straight out
     servo4 = 1000  # 500: straight out
@@ -76,7 +76,7 @@ def from_the_right(): # sword to the right
     Board.setBusServoPulse(6, servo6, 500)
 
 def from_the_left(): # sword to the left
-    servo1 = 550  # Gripper: 0-full open, 500-close
+    servo1 = 510  # Gripper: 0-full open, 500-close
     servo2 = 750  # Wrist: 500-horizontal,
     servo3 = 450  # 500: straight out
     servo4 = 1000  # 500: straight out
