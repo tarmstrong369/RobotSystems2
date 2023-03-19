@@ -83,16 +83,15 @@ def from_the_left(T): # sword to the left
     Board.setBusServoPulse(5, servo5, T)
     Board.setBusServoPulse(6, servo6, T)
 if __name__ == '__main__':
-    arm_kinematics = ArmIK()
     t=1000
-    s=1.5
+    s=3
     middle_stance(t)
     time.sleep(s)
     high_blow(t)
     time.sleep(s)
     low_strike(t)
     time.sleep(s)
-    from_the_right(t)
-    time.sleep(s)
     from_the_left(t)
+    time.sleep(s)
+    from_the_right(t)
 
